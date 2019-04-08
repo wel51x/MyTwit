@@ -1,0 +1,1221 @@
+Last login: Fri Apr  5 21:17:31 on ttys000
+(base) Winstons-Air:~ wel51x$ env|sort
+AR=/Library/anaconda3/bin/x86_64-apple-darwin13.4.0-ar
+AS=/Library/anaconda3/bin/x86_64-apple-darwin13.4.0-as
+Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.P844lTCcdp/Render
+CC=x86_64-apple-darwin13.4.0-clang
+CFLAGS=-march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe
+CHECKSYMS=/Library/anaconda3/bin/x86_64-apple-darwin13.4.0-checksyms
+CLANG=/Library/anaconda3/bin/x86_64-apple-darwin13.4.0-clang
+CLANGXX=/Library/anaconda3/bin/x86_64-apple-darwin13.4.0-clang++
+CODESIGN_ALLOCATE=/Library/anaconda3/bin/x86_64-apple-darwin13.4.0-codesign_allocate
+CONDA_BACKUP_HOST=x86_64-apple-darwin13.4.0
+CONDA_BUILD_SYSROOT=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk
+CONDA_DEFAULT_ENV=base
+CONDA_EXE=/Library/anaconda3/bin/conda
+CONDA_PREFIX=/Library/anaconda3
+CONDA_PROMPT_MODIFIER=(base) 
+CONDA_PYTHON_EXE=/Library/anaconda3/bin/python
+CONDA_SHLVL=1
+CPPFLAGS=-D_FORTIFY_SOURCE=2 -mmacosx-version-min=10.9
+CXX=x86_64-apple-darwin13.4.0-clang++
+CXXFLAGS=-march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -std=c++14 -fmessage-length=0
+DEBUG_CFLAGS=-march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -Og -g -Wall -Wextra
+DEBUG_CXXFLAGS=-march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -std=c++14 -fmessage-length=0 -Og -g -Wall -Wextra
+DEBUG_FFLAGS=-march=nocona -mtune=core2 -ftree-vectorize -fPIC -fstack-protector -O2 -pipe -march=nocona -mtune=core2 -ftree-vectorize -fPIC -fstack-protector -O2 -pipe -Og -g -Wall -Wextra -fcheck=all -fbacktrace -fimplicit-none -fvar-tracking-assignments
+DEBUG_FORTRANFLAGS=-march=nocona -mtune=core2 -ftree-vectorize -fPIC -fstack-protector -O2 -pipe -march=nocona -mtune=core2 -ftree-vectorize -fPIC -fstack-protector -O2 -pipe -Og -g -Wall -Wextra -fcheck=all -fbacktrace -fimplicit-none -fvar-tracking-assignments
+F77=/Library/anaconda3/bin/x86_64-apple-darwin13.4.0-gfortran
+F90=/Library/anaconda3/bin/x86_64-apple-darwin13.4.0-gfortran
+F95=/Library/anaconda3/bin/x86_64-apple-darwin13.4.0-gfortran
+FC=/Library/anaconda3/bin/x86_64-apple-darwin13.4.0-gfortran
+FFLAGS=-march=nocona -mtune=core2 -ftree-vectorize -fPIC -fstack-protector -O2 -pipe
+FORTRANFLAGS=-march=nocona -mtune=core2 -ftree-vectorize -fPIC -fstack-protector -O2 -pipe
+GFORTRAN=/Library/anaconda3/bin/x86_64-apple-darwin13.4.0-gfortran
+HISTSIZE=8192
+HOME=/Users/wel51x
+HOST=x86_64-apple-darwin13.4.0
+INDR=/Library/anaconda3/bin/x86_64-apple-darwin13.4.0-indr
+INSTALL_NAME_TOOL=/Library/anaconda3/bin/x86_64-apple-darwin13.4.0-install_name_tool
+JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home
+LANG=en_US.UTF-8
+LD=/Library/anaconda3/bin/x86_64-apple-darwin13.4.0-ld
+LDFLAGS=-Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs
+LDFLAGS_LD=-pie -headerpad_max_install_names -dead_strip_dylibs
+LIBTOOL=/Library/anaconda3/bin/x86_64-apple-darwin13.4.0-libtool
+LIPO=/Library/anaconda3/bin/x86_64-apple-darwin13.4.0-lipo
+LOGNAME=wel51x
+NM=/Library/anaconda3/bin/x86_64-apple-darwin13.4.0-nm
+NMEDIT=/Library/anaconda3/bin/x86_64-apple-darwin13.4.0-nmedit
+OTOOL=/Library/anaconda3/bin/x86_64-apple-darwin13.4.0-otool
+PAGESTUFF=/Library/anaconda3/bin/x86_64-apple-darwin13.4.0-pagestuff
+PATH=/Library/PostgreSQL/pg11/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/Library/spark/spark-2.4.0-bin-hadoop2.7/bin:/Library/anaconda3/bin:/Library/anaconda3/condabin:/opt/local/bin:/opt/local/sbin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+PWD=/Users/wel51x
+RANLIB=/Library/anaconda3/bin/x86_64-apple-darwin13.4.0-ranlib
+REDO_PREBINDING=/Library/anaconda3/bin/x86_64-apple-darwin13.4.0-redo_prebinding
+REPO=/Users/wel51x/Box Sync/MyBox/Code/repos
+SECURITYSESSIONID=186a8
+SEGEDIT=/Library/anaconda3/bin/x86_64-apple-darwin13.4.0-segedit
+SEG_ADDR_TABLE=/Library/anaconda3/bin/x86_64-apple-darwin13.4.0-seg_addr_table
+SEG_HACK=/Library/anaconda3/bin/x86_64-apple-darwin13.4.0-seg_hack
+SHELL=/bin/bash
+SHLVL=1
+SIZE=/Library/anaconda3/bin/x86_64-apple-darwin13.4.0-size
+SPARK_HOME=/Library/spark/spark-2.4.0-bin-hadoop2.7
+SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.pZzWsOrdue/Listeners
+STRINGS=/Library/anaconda3/bin/x86_64-apple-darwin13.4.0-strings
+STRIP=/Library/anaconda3/bin/x86_64-apple-darwin13.4.0-strip
+TERM=xterm-256color
+TERM_PROGRAM=Apple_Terminal
+TERM_PROGRAM_VERSION=421.1.1
+TERM_SESSION_ID=A731DCED-0991-4990-8FC4-C71C520E8200
+TMPDIR=/var/folders/1w/y_m1cq5j2bjg3715cz3hsq2m0000gn/T/
+USER=wel51x
+XPC_FLAGS=0x0
+XPC_SERVICE_NAME=0
+_=/usr/bin/env
+_CONDA_PYTHON_SYSCONFIGDATA_NAME=_sysconfigdata_x86_64_apple_darwin13_4_0
+(base) Winstons-Air:~ wel51x$ cd $REPO
+-bash: cd: /Users/wel51x/Box: No such file or directory
+(base) Winstons-Air:~ wel51x$ cd "$REPO"
+(base) Winstons-Air:repos wel51x$ ls -ls
+total 0
+0 drwxr-xr-x  2 wel51x  staff  64 Apr  8 10:23 Lambda
+(base) Winstons-Air:repos wel51x$ cd L*
+(base) Winstons-Air:Lambda wel51x$ git clone https://github.com/wel51x/MyTwit
+Cloning into 'MyTwit'...
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (5/5), done.
+(base) Winstons-Air:Lambda wel51x$ ls
+MyTwit
+(base) Winstons-Air:Lambda wel51x$ cd M*
+(base) Winstons-Air:MyTwit wel51x$ ls -lsa
+total 24
+0 drwxr-xr-x   6 wel51x  staff   192 Apr  8 10:31 .
+0 drwxr-xr-x   3 wel51x  staff    96 Apr  8 10:31 ..
+0 drwxr-xr-x  13 wel51x  staff   416 Apr  8 10:31 .git
+8 -rw-r--r--   1 wel51x  staff  1203 Apr  8 10:31 .gitignore
+8 -rw-r--r--   1 wel51x  staff  1064 Apr  8 10:31 LICENSE
+8 -rw-r--r--   1 wel51x  staff    55 Apr  8 10:31 README.md
+(base) Winstons-Air:MyTwit wel51x$ which pipenv
+/Library/Frameworks/Python.framework/Versions/3.7/bin/pipenv
+(base) Winstons-Air:MyTwit wel51x$ pipenv install Flask
+Creating a virtualenv for this project…
+Pipfile: /Users/wel51x/Box Sync/MyBox/Code/repos/Lambda/MyTwit/Pipfile
+Using /Library/Frameworks/Python.framework/Versions/3.7/bin/python3.7 (3.7.2) to create virtualenv…
+⠇ Creating virtual environment...Already using interpreter /Library/Frameworks/Python.framework/Versions/3.7/bin/python3.7
+Using base prefix '/Library/Frameworks/Python.framework/Versions/3.7'
+New python executable in /Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/bin/python3.7
+Also creating executable in /Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/bin/python
+Installing setuptools, pip, wheel...
+done.
+
+✔ Successfully created virtual environment! 
+Virtualenv location: /Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70
+Creating a Pipfile for this project…
+Installing Flask…
+Adding Flask to Pipfile's [packages]…
+✔ Installation Succeeded 
+Pipfile.lock not found, creating…
+Locking [dev-packages] dependencies…
+Locking [packages] dependencies…
+✔ Success! 
+Updated Pipfile.lock (662286)!
+Installing dependencies from Pipfile.lock (662286)…
+  🐍   ▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ 6/6 — 00:00:02
+To activate this project's virtualenv, run pipenv shell.
+Alternatively, run a command inside the virtualenv with pipenv run.
+(base) Winstons-Air:MyTwit wel51x$ ls -ls
+total 40
+ 8 -rw-r--r--  1 wel51x  staff  1064 Apr  8 10:31 LICENSE
+ 8 -rw-r--r--  1 wel51x  staff   150 Apr  8 10:34 Pipfile
+16 -rw-r--r--  1 wel51x  staff  4566 Apr  8 10:35 Pipfile.lock
+ 8 -rw-r--r--  1 wel51x  staff    55 Apr  8 10:31 README.md
+(base) Winstons-Air:MyTwit wel51x$ ls -lsa
+total 48
+ 0 drwxr-xr-x   8 wel51x  staff   256 Apr  8 10:35 .
+ 0 drwxr-xr-x   3 wel51x  staff    96 Apr  8 10:31 ..
+ 0 drwxr-xr-x  13 wel51x  staff   416 Apr  8 10:31 .git
+ 8 -rw-r--r--   1 wel51x  staff  1203 Apr  8 10:31 .gitignore
+ 8 -rw-r--r--   1 wel51x  staff  1064 Apr  8 10:31 LICENSE
+ 8 -rw-r--r--   1 wel51x  staff   150 Apr  8 10:34 Pipfile
+16 -rw-r--r--   1 wel51x  staff  4566 Apr  8 10:35 Pipfile.lock
+ 8 -rw-r--r--   1 wel51x  staff    55 Apr  8 10:31 README.md
+(base) Winstons-Air:MyTwit wel51x$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	Pipfile
+	Pipfile.lock
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base) Winstons-Air:MyTwit wel51x$ flask
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/flask/cli.py", line 529, in list_commands
+    rv.update(info.load_app().cli.list_commands(ctx))
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/flask/cli.py", line 384, in load_app
+    'Could not locate a Flask application. You did not provide '
+flask.cli.NoAppException: Could not locate a Flask application. You did not provide the "FLASK_APP" environment variable, and a "wsgi.py" or "app.py" module was not found in the current directory.
+Usage: flask [OPTIONS] COMMAND [ARGS]...
+
+  A general utility script for Flask applications.
+
+  Provides commands from Flask, extensions, and the application. Loads the
+  application defined in the FLASK_APP environment variable, or from a
+  wsgi.py file. Setting the FLASK_ENV environment variable to 'development'
+  will enable debug mode.
+
+    $ export FLASK_APP=hello.py
+    $ export FLASK_ENV=development
+    $ flask run
+
+Options:
+  --version  Show the flask version
+  --help     Show this message and exit.
+
+Commands:
+  routes  Show the routes for the app.
+  run     Runs a development server.
+  shell   Runs a shell in the app context.
+(base) Winstons-Air:MyTwit wel51x$ which flask
+/Library/Frameworks/Python.framework/Versions/3.7/bin/flask
+(base) Winstons-Air:MyTwit wel51x$ pipenv shell
+Launching subshell in virtual environment…
+bash-3.2$  . /Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/bin/activate
+(MyTwit) bash-3.2$ which flask
+/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/bin/flask
+(MyTwit) bash-3.2$ mkdir mytwit
+(MyTwit) bash-3.2$ pwd
+/Users/wel51x/Box Sync/MyBox/Code/repos/Lambda/MyTwit
+(MyTwit) bash-3.2$ ls -lsa
+total 48
+ 0 drwxr-xr-x   9 wel51x  staff   288 Apr  8 10:39 .
+ 0 drwxr-xr-x   3 wel51x  staff    96 Apr  8 10:31 ..
+ 0 drwxr-xr-x  13 wel51x  staff   416 Apr  8 10:36 .git
+ 8 -rw-r--r--   1 wel51x  staff  1203 Apr  8 10:31 .gitignore
+ 8 -rw-r--r--   1 wel51x  staff  1064 Apr  8 10:31 LICENSE
+ 8 -rw-r--r--   1 wel51x  staff   150 Apr  8 10:34 Pipfile
+16 -rw-r--r--   1 wel51x  staff  4566 Apr  8 10:35 Pipfile.lock
+ 8 -rw-r--r--   1 wel51x  staff    55 Apr  8 10:31 README.md
+ 0 drwxr-xr-x   2 wel51x  staff    64 Apr  8 10:39 mytwit
+(MyTwit) bash-3.2$ cd mytwit
+(MyTwit) bash-3.2$ vi app.py
+(MyTwit) bash-3.2$ vi __init__.py
+(MyTwit) bash-3.2$ ls -lsa
+total 16
+0 drwxr-xr-x  4 wel51x  staff  128 Apr  8 10:49 .
+0 drwxr-xr-x  9 wel51x  staff  288 Apr  8 10:39 ..
+8 -rw-r--r--  1 wel51x  staff   75 Apr  8 10:49 __init__.py
+8 -rw-r--r--  1 wel51x  staff  222 Apr  8 10:45 app.py
+(MyTwit) bash-3.2$ cd ..
+(MyTwit) bash-3.2$ ls -lsa
+total 48
+ 0 drwxr-xr-x   9 wel51x  staff   288 Apr  8 10:39 .
+ 0 drwxr-xr-x   3 wel51x  staff    96 Apr  8 10:31 ..
+ 0 drwxr-xr-x  13 wel51x  staff   416 Apr  8 10:36 .git
+ 8 -rw-r--r--   1 wel51x  staff  1203 Apr  8 10:31 .gitignore
+ 8 -rw-r--r--   1 wel51x  staff  1064 Apr  8 10:31 LICENSE
+ 8 -rw-r--r--   1 wel51x  staff   150 Apr  8 10:34 Pipfile
+16 -rw-r--r--   1 wel51x  staff  4566 Apr  8 10:35 Pipfile.lock
+ 8 -rw-r--r--   1 wel51x  staff    55 Apr  8 10:31 README.md
+ 0 drwxr-xr-x   4 wel51x  staff   128 Apr  8 10:49 mytwit
+(MyTwit) bash-3.2$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	Pipfile
+	Pipfile.lock
+	mytwit/
+
+nothing added to commit but untracked files present (use "git add" to track)
+(MyTwit) bash-3.2$ FLASK_APP=mytwit flask run
+ * Serving Flask app "mytwit"
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [08/Apr/2019 10:52:08] "GET / HTTP/1.1" 200 -
+^C(MyTwit) bash-3.2$ git add .
+(MyTwit) bash-3.2$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   Pipfile
+	new file:   Pipfile.lock
+	new file:   mytwit/__init__.py
+	new file:   mytwit/app.py
+
+(MyTwit) bash-3.2$ git commit -am "Initial installation of Flask and MyTwit Hello World App"
+[master ee0beff] Initial installation of Flask and MyTwit Hello World App
+ 4 files changed, 117 insertions(+)
+ create mode 100644 Pipfile
+ create mode 100644 Pipfile.lock
+ create mode 100644 mytwit/__init__.py
+ create mode 100644 mytwit/app.py
+(MyTwit) bash-3.2$ git push
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 2.71 KiB | 693.00 KiB/s, done.
+Total 7 (delta 0), reused 0 (delta 0)
+To https://github.com/wel51x/MyTwit
+   2668316..ee0beff  master -> master
+(MyTwit) bash-3.2$ exit
+exit
+(base) Winstons-Air:MyTwit wel51x$ ls -lsa
+total 48
+ 0 drwxr-xr-x   9 wel51x  staff   288 Apr  8 10:39 .
+ 0 drwxr-xr-x   3 wel51x  staff    96 Apr  8 10:31 ..
+ 0 drwxr-xr-x  14 wel51x  staff   448 Apr  8 10:54 .git
+ 8 -rw-r--r--   1 wel51x  staff  1203 Apr  8 10:31 .gitignore
+ 8 -rw-r--r--   1 wel51x  staff  1064 Apr  8 10:31 LICENSE
+ 8 -rw-r--r--   1 wel51x  staff   150 Apr  8 10:34 Pipfile
+16 -rw-r--r--   1 wel51x  staff  4566 Apr  8 10:35 Pipfile.lock
+ 8 -rw-r--r--   1 wel51x  staff    55 Apr  8 10:31 README.md
+ 0 drwxr-xr-x   4 wel51x  staff   128 Apr  8 10:49 mytwit
+(base) Winstons-Air:MyTwit wel51x$ pipenv shell
+Launching subshell in virtual environment…
+bash-3.2$  . /Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/bin/activate
+(MyTwit) bash-3.2$ python3
+Python 3.7.2 (v3.7.2:9a3ffc0492, Dec 24 2018, 02:44:43) 
+[Clang 6.0 (clang-600.0.57)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import flask
+>>> import pandas as pd
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ModuleNotFoundError: No module named 'pandas'
+>>> ^D
+(MyTwit) bash-3.2$ cd m*
+(MyTwit) bash-3.2$ ls
+__init__.py	app.py
+(MyTwit) bash-3.2$ vi a*
+(MyTwit) bash-3.2$ cd ..
+(MyTwit) bash-3.2$ FLASK_APP=mytwit flask run
+ * Serving Flask app "mytwit"
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [08/Apr/2019 11:46:22] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/Apr/2019 11:46:28] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/Apr/2019 11:46:32] "GET /banjo HTTP/1.1" 200 -
+127.0.0.1 - - [08/Apr/2019 11:46:32] "GET /favicon.ico HTTP/1.1" 404 -
+^C(MyTwit) bash-3.2$ FLASK_APP=mytwit flask run
+ * Serving Flask app "mytwit"
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Traceback (most recent call last):
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/bin/flask", line 10, in <module>
+    sys.exit(main())
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/flask/cli.py", line 894, in main
+    cli.main(args=args, prog_name=name)
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/flask/cli.py", line 557, in main
+    return super(FlaskGroup, self).main(*args, **kwargs)
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/click/core.py", line 717, in main
+    rv = self.invoke(ctx)
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/click/core.py", line 1137, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/click/core.py", line 956, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/click/decorators.py", line 64, in new_func
+    return ctx.invoke(f, obj, *args, **kwargs)
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/flask/cli.py", line 767, in run_command
+    app = DispatchingApp(info.load_app, use_eager_loading=eager_loading)
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/flask/cli.py", line 293, in __init__
+    self._load_unlocked()
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/flask/cli.py", line 317, in _load_unlocked
+    self._app = rv = self.loader()
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/flask/cli.py", line 372, in load_app
+    app = locate_app(self, import_name, name)
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/flask/cli.py", line 235, in locate_app
+    __import__(module_name)
+  File "/Users/wel51x/Box Sync/MyBox/Code/repos/Lambda/MyTwit/mytwit/__init__.py", line 2, in <module>
+    from .app import create_app
+  File "/Users/wel51x/Box Sync/MyBox/Code/repos/Lambda/MyTwit/mytwit/app.py", line 13
+    return "I like <a href="https://banjohangout.org">banjos!"
+                                ^
+SyntaxError: invalid syntax
+(MyTwit) bash-3.2$ FLASK_APP=mytwit flask run
+ * Serving Flask app "mytwit"
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Traceback (most recent call last):
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/bin/flask", line 10, in <module>
+    sys.exit(main())
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/flask/cli.py", line 894, in main
+    cli.main(args=args, prog_name=name)
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/flask/cli.py", line 557, in main
+    return super(FlaskGroup, self).main(*args, **kwargs)
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/click/core.py", line 717, in main
+    rv = self.invoke(ctx)
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/click/core.py", line 1137, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/click/core.py", line 956, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/click/decorators.py", line 64, in new_func
+    return ctx.invoke(f, obj, *args, **kwargs)
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/flask/cli.py", line 767, in run_command
+    app = DispatchingApp(info.load_app, use_eager_loading=eager_loading)
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/flask/cli.py", line 293, in __init__
+    self._load_unlocked()
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/flask/cli.py", line 317, in _load_unlocked
+    self._app = rv = self.loader()
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/flask/cli.py", line 372, in load_app
+    app = locate_app(self, import_name, name)
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/flask/cli.py", line 235, in locate_app
+    __import__(module_name)
+  File "/Users/wel51x/Box Sync/MyBox/Code/repos/Lambda/MyTwit/mytwit/__init__.py", line 2, in <module>
+    from .app import create_app
+  File "/Users/wel51x/Box Sync/MyBox/Code/repos/Lambda/MyTwit/mytwit/app.py", line 13
+    return "I like <a href="http://banjohangout.org">banjos!"
+                               ^
+SyntaxError: invalid syntax
+(MyTwit) bash-3.2$ cd m*
+(MyTwit) bash-3.2$ vi a*
+(MyTwit) bash-3.2$ cd ..
+(MyTwit) bash-3.2$ FLASK_APP=mytwit flask run
+ * Serving Flask app "mytwit"
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [08/Apr/2019 11:54:51] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/Apr/2019 11:54:59] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/Apr/2019 11:54:59] "GET /banjo HTTP/1.1" 200 -
+127.0.0.1 - - [08/Apr/2019 11:55:02] "GET /banjo HTTP/1.1" 200 -
+^C(MyTwit) bash-3.2git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   mytwit/app.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(MyTwit) bash-3.2$ git add .
+(MyTwit) bash-3.2$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   mytwit/app.py
+
+(MyTwit) bash-3.2$ git commit -am "added banjo function"
+[master ec45691] added banjo function
+ 1 file changed, 4 insertions(+)
+(MyTwit) bash-3.2$ git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 456 bytes | 456.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/wel51x/MyTwit
+   ee0beff..ec45691  master -> master
+(MyTwit) bash-3.2$ cd m*
+(MyTwit) bash-3.2$ cat _*
+"""Entry point for MyTwit"""
+from .app import create_app
+
+APP = create_app
+(MyTwit) bash-3.2$ cat a*
+from flask import Flask
+
+def create_app():
+    """Create and configure an instance of the Flask application"""
+    app = Flask(__name__)
+
+    @app.route('/')
+    def root():
+        return "Hello, MyTwit!"
+
+    @app.route('/banjo')
+    def banjo():
+        return 'I like <a href="https://banjohangout.org">banjos!'
+
+    return app
+(MyTwit) bash-3.2$ vi a*
+(MyTwit) bash-3.2$ exit
+exit
+(base) Winstons-Air:MyTwit wel51x$ pipenv install flask-sqlalchemy
+Installing flask-sqlalchemy…
+Adding flask-sqlalchemy to Pipfile's [packages]…
+✔ Installation Succeeded 
+Pipfile.lock (abc4de) out of date, updating to (662286)…
+Locking [dev-packages] dependencies…
+Locking [packages] dependencies…
+✔ Success! 
+Updated Pipfile.lock (abc4de)!
+Installing dependencies from Pipfile.lock (abc4de)…
+  🐍   ▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ 8/8 — 00:00:03
+To activate this project's virtualenv, run pipenv shell.
+Alternatively, run a command inside the virtualenv with pipenv run.
+(base) Winstons-Air:MyTwit wel51x$ ls -ls
+total 40
+ 8 -rw-r--r--  1 wel51x  staff  1064 Apr  8 10:31 LICENSE
+ 8 -rw-r--r--  1 wel51x  staff   173 Apr  8 12:15 Pipfile
+16 -rw-r--r--  1 wel51x  staff  5086 Apr  8 12:15 Pipfile.lock
+ 8 -rw-r--r--  1 wel51x  staff    55 Apr  8 10:31 README.md
+ 0 drwxr-xr-x  4 wel51x  staff   128 Apr  8 12:08 mytwit
+(base) Winstons-Air:MyTwit wel51x$ pipenv shell
+Launching subshell in virtual environment…
+bash-3.2$  . /Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/bin/activate
+(MyTwit) bash-3.2$ pwd
+/Users/wel51x/Box Sync/MyBox/Code/repos/Lambda/MyTwit
+(MyTwit) bash-3.2$ cd m*
+(MyTwit) bash-3.2$ vi models.py
+(MyTwit) bash-3.2$ cat models.py
+"""SQLAlchemy models for MyTwit."""
+from flask_sqlalchemy import SQLAlchemy
+
+DB = SQLAlchemy()
+
+class User(DB.Model):
+    """Twitter users for whom we pull and analyze tweets"""
+    id = DB.Column(DB.BigInteger, primary_key=True)
+    name = DB.Column(DB.String(15), nullable=False)
+
+class Tweet(DB.Model)
+    """Actual Tweets."""
+    id = DB.Column(DB.BigInteger, primary_key=True)
+    name = DB.Column(DB.Unicode(280))
+(MyTwit) bash-3.2$ cd ..
+(MyTwit) bash-3.2$ pwd
+/Users/wel51x/Box Sync/MyBox/Code/repos/Lambda/MyTwit
+(MyTwit) bash-3.2$ FLASK_APP=mytwit flask shell
+Python 3.7.2 (v3.7.2:9a3ffc0492, Dec 24 2018, 02:44:43) 
+[Clang 6.0 (clang-600.0.57)] on darwin
+App: mytwit.app [production]
+Instance: /Users/wel51x/Box Sync/MyBox/Code/repos/Lambda/MyTwit/instance
+>>> from mytwit.models import *
+Traceback (most recent call last):
+  File "<console>", line 1, in <module>
+  File "/Users/wel51x/Box Sync/MyBox/Code/repos/Lambda/MyTwit/mytwit/models.py", line 11
+    class Tweet(DB.Model)
+                        ^
+SyntaxError: invalid syntax
+>>> ^D
+now exiting InteractiveConsole...
+(MyTwit) bash-3.2$ cd m*
+(MyTwit) bash-3.2$ vi models.py
+(MyTwit) bash-3.2$ cd ..
+(MyTwit) bash-3.2$ FLASK_APP=mytwit flask shell
+Python 3.7.2 (v3.7.2:9a3ffc0492, Dec 24 2018, 02:44:43) 
+[Clang 6.0 (clang-600.0.57)] on darwin
+App: mytwit.app [production]
+Instance: /Users/wel51x/Box Sync/MyBox/Code/repos/Lambda/MyTwit/instance
+>>> from mytwit.models import *
+>>> ^D
+now exiting InteractiveConsole...
+(MyTwit) bash-3.2$ cd m*
+(MyTwit) bash-3.2$ vi a*
+(MyTwit) bash-3.2$ vi m*
+(MyTwit) bash-3.2$ vi a*
+(MyTwit) bash-3.2$ cd ..
+(MyTwit) bash-3.2$ FLASK_APP=mytwit flask shell
+/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py:794: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+Python 3.7.2 (v3.7.2:9a3ffc0492, Dec 24 2018, 02:44:43) 
+[Clang 6.0 (clang-600.0.57)] on darwin
+App: mytwit.app [production]
+Instance: /Users/wel51x/Box Sync/MyBox/Code/repos/Lambda/MyTwit/instance
+>>> from mytwit.models import *
+>>> DB
+<SQLAlchemy engine=sqlite:////Users/wel51x/Box Sync/MyBox/Code/repos/Lambda/MyTwit/mytwit/db.sqlite3>
+>>> DB.create_all()
+>>> ^D
+now exiting InteractiveConsole...
+(MyTwit) bash-3.2$ ls -alh
+total 48
+drwxr-xr-x   9 wel51x  staff   288B Apr  8 12:15 .
+drwxr-xr-x   3 wel51x  staff    96B Apr  8 10:31 ..
+drwxr-xr-x  14 wel51x  staff   448B Apr  8 11:56 .git
+-rw-r--r--   1 wel51x  staff   1.2K Apr  8 10:31 .gitignore
+-rw-r--r--   1 wel51x  staff   1.0K Apr  8 10:31 LICENSE
+-rw-r--r--   1 wel51x  staff   173B Apr  8 12:15 Pipfile
+-rw-r--r--   1 wel51x  staff   5.0K Apr  8 12:15 Pipfile.lock
+-rw-r--r--   1 wel51x  staff    55B Apr  8 10:31 README.md
+drwxr-xr-x   6 wel51x  staff   192B Apr  8 12:37 mytwit
+(MyTwit) bash-3.2$ ls -alh mytwit
+total 64
+drwxr-xr-x  6 wel51x  staff   192B Apr  8 12:37 .
+drwxr-xr-x  9 wel51x  staff   288B Apr  8 12:15 ..
+-rw-r--r--  1 wel51x  staff    75B Apr  8 10:49 __init__.py
+-rw-r--r--@ 1 wel51x  staff   489B Apr  8 12:36 app.py
+-rw-r--r--  1 wel51x  staff    20K Apr  8 12:37 db.sqlite3
+-rw-r--r--  1 wel51x  staff   421B Apr  8 12:29 models.py
+(MyTwit) bash-3.2$ FLASK_APP=mytwit flask shell
+/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py:794: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+Python 3.7.2 (v3.7.2:9a3ffc0492, Dec 24 2018, 02:44:43) 
+[Clang 6.0 (clang-600.0.57)] on darwin
+App: mytwit.app [production]
+Instance: /Users/wel51x/Box Sync/MyBox/Code/repos/Lambda/MyTwit/instance
+>>> from mytwit.models import *
+>>> User
+<class 'mytwit.models.User'>
+>>> u1 = User(id=1, name='winston')
+>>> t1 = Tweet(id=1, text='Lambda School is awesome!')
+Traceback (most recent call last):
+  File "<console>", line 1, in <module>
+  File "<string>", line 4, in __init__
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/sqlalchemy/orm/state.py", line 441, in _initialize_instance
+    manager.dispatch.init_failure(self, args, kwargs)
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 129, in reraise
+    raise value
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/sqlalchemy/orm/state.py", line 438, in _initialize_instance
+    return manager.original_init(*mixed[1:], **kwargs)
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/sqlalchemy/ext/declarative/base.py", line 834, in _declarative_constructor
+    "%r is an invalid keyword argument for %s" % (k, cls_.__name__)
+TypeError: 'text' is an invalid keyword argument for Tweet
+>>> t1 = Tweet(id=1, text='Lambda School is awesome')
+Traceback (most recent call last):
+  File "<console>", line 1, in <module>
+  File "<string>", line 4, in __init__
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/sqlalchemy/orm/state.py", line 441, in _initialize_instance
+    manager.dispatch.init_failure(self, args, kwargs)
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 129, in reraise
+    raise value
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/sqlalchemy/orm/state.py", line 438, in _initialize_instance
+    return manager.original_init(*mixed[1:], **kwargs)
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/sqlalchemy/ext/declarative/base.py", line 834, in _declarative_constructor
+    "%r is an invalid keyword argument for %s" % (k, cls_.__name__)
+TypeError: 'text' is an invalid keyword argument for Tweet
+>>> t1 = Tweet(id=1, text='Lambda School is awesome!')
+Traceback (most recent call last):
+  File "<console>", line 1, in <module>
+  File "<string>", line 4, in __init__
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/sqlalchemy/orm/state.py", line 441, in _initialize_instance
+    manager.dispatch.init_failure(self, args, kwargs)
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 129, in reraise
+    raise value
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/sqlalchemy/orm/state.py", line 438, in _initialize_instance
+    return manager.original_init(*mixed[1:], **kwargs)
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/sqlalchemy/ext/declarative/base.py", line 834, in _declarative_constructor
+    "%r is an invalid keyword argument for %s" % (k, cls_.__name__)
+TypeError: 'text' is an invalid keyword argument for Tweet
+>>> 
+KeyboardInterrupt
+>>> ^D
+now exiting InteractiveConsole...
+(MyTwit) bash-3.2$ FLASK_APP=mytwit flask shell
+/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py:794: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+Python 3.7.2 (v3.7.2:9a3ffc0492, Dec 24 2018, 02:44:43) 
+[Clang 6.0 (clang-600.0.57)] on darwin
+App: mytwit.app [production]
+Instance: /Users/wel51x/Box Sync/MyBox/Code/repos/Lambda/MyTwit/instance
+>>> from mytwit.models import *
+>>> User
+<class 'mytwit.models.User'>
+>>> u1 = User(id=1, name='winston')
+>>> t1 = Tweet(id=1, text='Lambda School is awesome!')
+Traceback (most recent call last):
+  File "<console>", line 1, in <module>
+  File "<string>", line 4, in __init__
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/sqlalchemy/orm/state.py", line 441, in _initialize_instance
+    manager.dispatch.init_failure(self, args, kwargs)
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 129, in reraise
+    raise value
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/sqlalchemy/orm/state.py", line 438, in _initialize_instance
+    return manager.original_init(*mixed[1:], **kwargs)
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/sqlalchemy/ext/declarative/base.py", line 834, in _declarative_constructor
+    "%r is an invalid keyword argument for %s" % (k, cls_.__name__)
+TypeError: 'text' is an invalid keyword argument for Tweet
+>>> ^D
+now exiting InteractiveConsole...
+(MyTwit) bash-3.2$ cd m*
+(MyTwit) bash-3.2$ vi m*
+(MyTwit) bash-3.2$ cd ..
+(MyTwit) bash-3.2$ FLASK_APP=mytwit flask shell
+/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py:794: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+Python 3.7.2 (v3.7.2:9a3ffc0492, Dec 24 2018, 02:44:43) 
+[Clang 6.0 (clang-600.0.57)] on darwin
+App: mytwit.app [production]
+Instance: /Users/wel51x/Box Sync/MyBox/Code/repos/Lambda/MyTwit/instance
+>>> from mytwit.models import *
+>>> u1 = User(id=1, name='winston')
+>>> t1 = Tweet(id=1, text='Lambda School is awesome!')
+>>> DB
+<SQLAlchemy engine=sqlite:////Users/wel51x/Box Sync/MyBox/Code/repos/Lambda/MyTwit/mytwit/db.sqlite3>
+>>> commit
+Traceback (most recent call last):
+  File "<console>", line 1, in <module>
+NameError: name 'commit' is not defined
+>>> u1
+<User (transient 4577327032)>
+>>> t1
+<Tweet (transient 4577327200)>
+>>> u1.tweets.append(t1)
+Traceback (most recent call last):
+  File "<console>", line 1, in <module>
+AttributeError: 'User' object has no attribute 'tweets'
+>>> DB.session.add(u1)
+>>> DB.session.add(t1)
+>>> ^D
+now exiting InteractiveConsole...
+(MyTwit) bash-3.2$ FLASK_APP=mytwit flask shell
+/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py:794: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+Python 3.7.2 (v3.7.2:9a3ffc0492, Dec 24 2018, 02:44:43) 
+[Clang 6.0 (clang-600.0.57)] on darwin
+App: mytwit.app [production]
+Instance: /Users/wel51x/Box Sync/MyBox/Code/repos/Lambda/MyTwit/instance
+>>> from mytwit.models import *
+>>> u1 = User(id=1, name='winston')
+>>> t1 = Tweet(id=1, text='Lambda School is awesome!')
+>>> u1.tweets.append(t1)
+>>> DB.session.add(u1)
+>>> DB.session.add(t1)
+>>> DB.session.commit()
+Traceback (most recent call last):
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1244, in _execute_context
+    cursor, statement, parameters, context
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 552, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: table tweet has no column named user_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<console>", line 1, in <module>
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/sqlalchemy/orm/scoping.py", line 162, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1026, in commit
+    self.transaction.commit()
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 493, in commit
+    self._prepare_impl()
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 472, in _prepare_impl
+    self.session.flush()
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 2451, in flush
+    self._flush(objects)
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 2589, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 129, in reraise
+    raise value
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 2549, in _flush
+    flush_context.execute()
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/sqlalchemy/orm/unitofwork.py", line 422, in execute
+    rec.execute(self)
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/sqlalchemy/orm/unitofwork.py", line 589, in execute
+    uow,
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/sqlalchemy/orm/persistence.py", line 245, in save_obj
+    insert,
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/sqlalchemy/orm/persistence.py", line 1066, in _emit_insert_statements
+    c = cached_connections[connection].execute(statement, multiparams)
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 988, in execute
+    return meth(self, multiparams, params)
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/sqlalchemy/sql/elements.py", line 287, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1107, in _execute_clauseelement
+    distilled_params,
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1248, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1466, in _handle_dbapi_exception
+    util.raise_from_cause(sqlalchemy_exception, exc_info)
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 383, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 128, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1244, in _execute_context
+    cursor, statement, parameters, context
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 552, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) table tweet has no column named user_id
+[SQL: INSERT INTO tweet (id, text, user_id) VALUES (?, ?, ?)]
+[parameters: (1, 'Lambda School is awesome!', 1)]
+(Background on this error at: http://sqlalche.me/e/e3q8)
+>>> DB.drop
+Traceback (most recent call last):
+  File "<console>", line 1, in <module>
+AttributeError: 'SQLAlchemy' object has no attribute 'drop'
+>>> DB.drop()
+Traceback (most recent call last):
+  File "<console>", line 1, in <module>
+AttributeError: 'SQLAlchemy' object has no attribute 'drop'
+>>> DB.drop_all()
+>>> DB.session.commit()
+Traceback (most recent call last):
+  File "<console>", line 1, in <module>
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/sqlalchemy/orm/scoping.py", line 162, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1026, in commit
+    self.transaction.commit()
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 491, in commit
+    self._assert_active(prepared_ok=True)
+  File "/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 294, in _assert_active
+    % self._rollback_exception
+sqlalchemy.exc.InvalidRequestError: This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (sqlite3.OperationalError) table tweet has no column named user_id
+[SQL: INSERT INTO tweet (id, text, user_id) VALUES (?, ?, ?)]
+[parameters: (1, 'Lambda School is awesome!', 1)]
+(Background on this error at: http://sqlalche.me/e/e3q8)
+>>> ^D
+now exiting InteractiveConsole...
+(MyTwit) bash-3.2$ FLASK_APP=mytwit flask shell
+/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py:794: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+Python 3.7.2 (v3.7.2:9a3ffc0492, Dec 24 2018, 02:44:43) 
+[Clang 6.0 (clang-600.0.57)] on darwin
+App: mytwit.app [production]
+Instance: /Users/wel51x/Box Sync/MyBox/Code/repos/Lambda/MyTwit/instance
+>>> from mytwit.models import *
+>>> DB.drop_all()
+>>> ^D
+now exiting InteractiveConsole...
+(MyTwit) bash-3.2$ FLASK_APP=mytwit flask shell
+/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py:794: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+Python 3.7.2 (v3.7.2:9a3ffc0492, Dec 24 2018, 02:44:43) 
+[Clang 6.0 (clang-600.0.57)] on darwin
+App: mytwit.app [production]
+Instance: /Users/wel51x/Box Sync/MyBox/Code/repos/Lambda/MyTwit/instance
+>>> from mytwit.models import *
+>>> DB.create_all()
+>>> User
+<class 'mytwit.models.User'>
+>>> Tweet
+<class 'mytwit.models.Tweet'>
+>>> u1 = User(id=1, name='winston')
+>>> t1 = Tweet(id=1, text='Lambda School is awesome!')
+>>> u1.tweets.append(t1)
+>>> DB.session.add(u1)
+>>> DB.session.add(t1)
+>>> DB.session.commit()
+>>> ^D
+now exiting InteractiveConsole...
+(MyTwit) bash-3.2$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   Pipfile
+	modified:   Pipfile.lock
+	modified:   mytwit/app.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	mytwit/models.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(MyTwit) bash-3.2$ pwd
+/Users/wel51x/Box Sync/MyBox/Code/repos/Lambda/MyTwit
+(MyTwit) bash-3.2$ git add .
+(MyTwit) bash-3.2$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   Pipfile
+	modified:   Pipfile.lock
+	modified:   mytwit/app.py
+	new file:   mytwit/models.py
+
+(MyTwit) bash-3.2$ git commit -am "added DB model"
+[master 0f25c4f] added DB model
+ 4 files changed, 42 insertions(+), 1 deletion(-)
+ create mode 100644 mytwit/models.py
+(MyTwit) bash-3.2$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+(MyTwit) bash-3.2$ git push
+Enumerating objects: 12, done.
+Counting objects: 100% (12/12), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 1.36 KiB | 1.36 MiB/s, done.
+Total 7 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/wel51x/MyTwit
+   ec45691..0f25c4f  master -> master
+(MyTwit) bash-3.2$ ls -lsa
+total 48
+ 0 drwxr-xr-x   9 wel51x  staff   288 Apr  8 12:15 .
+ 0 drwxr-xr-x   3 wel51x  staff    96 Apr  8 10:31 ..
+ 0 drwxr-xr-x  14 wel51x  staff   448 Apr  8 13:11 .git
+ 8 -rw-r--r--   1 wel51x  staff  1203 Apr  8 10:31 .gitignore
+ 8 -rw-r--r--   1 wel51x  staff  1064 Apr  8 10:31 LICENSE
+ 8 -rw-r--r--   1 wel51x  staff   173 Apr  8 12:15 Pipfile
+16 -rw-r--r--   1 wel51x  staff  5086 Apr  8 12:15 Pipfile.lock
+ 8 -rw-r--r--   1 wel51x  staff    55 Apr  8 10:31 README.md
+ 0 drwxr-xr-x   6 wel51x  staff   192 Apr  8 13:06 mytwit
+(MyTwit) bash-3.2$ ls -alh
+total 48
+drwxr-xr-x   9 wel51x  staff   288B Apr  8 12:15 .
+drwxr-xr-x   3 wel51x  staff    96B Apr  8 10:31 ..
+drwxr-xr-x  14 wel51x  staff   448B Apr  8 13:11 .git
+-rw-r--r--   1 wel51x  staff   1.2K Apr  8 10:31 .gitignore
+-rw-r--r--   1 wel51x  staff   1.0K Apr  8 10:31 LICENSE
+-rw-r--r--   1 wel51x  staff   173B Apr  8 12:15 Pipfile
+-rw-r--r--   1 wel51x  staff   5.0K Apr  8 12:15 Pipfile.lock
+-rw-r--r--   1 wel51x  staff    55B Apr  8 10:31 README.md
+drwxr-xr-x   6 wel51x  staff   192B Apr  8 13:06 mytwit
+(MyTwit) bash-3.2$ ls -alh m*
+total 72
+drwxr-xr-x  6 wel51x  staff   192B Apr  8 13:06 .
+drwxr-xr-x  9 wel51x  staff   288B Apr  8 12:15 ..
+-rw-r--r--  1 wel51x  staff    75B Apr  8 10:49 __init__.py
+-rw-r--r--@ 1 wel51x  staff   489B Apr  8 12:36 app.py
+-rw-r--r--@ 1 wel51x  staff    24K Apr  8 13:06 db.sqlite3
+-rw-r--r--@ 1 wel51x  staff   713B Apr  8 12:56 models.py
+(MyTwit) bash-3.2$ cat .gitignore
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+(MyTwit) bash-3.2$ pwd
+/Users/wel51x/Box Sync/MyBox/Code/repos/Lambda/MyTwit
+(MyTwit) bash-3.2$ vi .gitignore
+(MyTwit) bash-3.2$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   .gitignore
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	mytwit/db.sqlite3
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(MyTwit) bash-3.2$ git add .
+(MyTwit) bash-3.2$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   .gitignore
+	new file:   mytwit/db.sqlite3
+
+(MyTwit) bash-3.2$ git commit -am "edited .gitignore and added DB itself"
+[master b9c79de] edited .gitignore and added DB itself
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+ create mode 100644 mytwit/db.sqlite3
+(MyTwit) bash-3.2$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+(MyTwit) bash-3.2$ git push
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 1.03 KiB | 529.00 KiB/s, done.
+Total 5 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/wel51x/MyTwit
+   0f25c4f..b9c79de  master -> master
+(MyTwit) bash-3.2$ cd m*
+(MyTwit) bash-3.2$ vi toy_data.py
+(MyTwit) bash-3.2$ cd ..
+(MyTwit) bash-3.2$ FLASK_APP=mytwit flask shell
+/Users/wel51x/.local/share/virtualenvs/MyTwit-h_4Ngz70/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py:794: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+Python 3.7.2 (v3.7.2:9a3ffc0492, Dec 24 2018, 02:44:43) 
+[Clang 6.0 (clang-600.0.57)] on darwin
+App: mytwit.app [production]
+Instance: /Users/wel51x/Box Sync/MyBox/Code/repos/Lambda/MyTwit/instance
+>>> from mytwit.models import *
+>>> 
+>>> u2 = User(id=2, name='austen')
+>>> u3 = User(id=3, name='ryanh')
+>>> u4 = User(id=4, name='aaron')
+>>> u5 = User(id=5, name='troyb')
+>>> u6 = User(id=6, name='darwin')
+>>> 
+>>> t2 = Tweet(id=2, text='Plants capture CO2 naturally')
+>>> t3 = Tweet(id=3, text='You, yeah you – why aren’t you following me?')
+>>> t4 = Tweet(id=4, text='This is like harassment')
+>>> t5 = Tweet(id=5, text='Coming to Barcelona for your Easter holidays')
+>>> t6 = Tweet(id=6, text='Thanks for all the experiences')
+>>> t7 = Tweet(id=7, text='That’s dope man! Is it easy to get there?')
+>>> t8 = Tweet(id=8, text='Change is coming. Sooner than you think.')
+>>> t9 = Tweet(id=9, text='Look at how #5G is driving future innovations in the #IoT space')
+>>> t10 = Tweet(id=10, text='Another amazing day at Camp Nou!')
+>>> t11 = Tweet(id=11, text='8 Tips On How To Get Your #Home Ready To #Sell')
+>>> t12 = Tweet(id=12, text='Several teams are exploring ways to limit their matches versus Barça to 75 minutes.')
+>>> t13 = Tweet(id=13, text='@Toyota is upping our investment in U.S. manufacturing +$3 billion by 2021.')
+>>> t14 = Tweet(id=14, text='We announced that were forming the Automated Vehicle Safety Consortium™ (AVSC)')
+>>> t15 = Tweet(id=15, text='This basketball-loving robot by @Toyota is playing against pro ballers.')
+>>> t16 = Tweet(id=16, text='Thats a player the Bulls can draft that wont get hurt.')
+>>> t17 = Tweet(id=17, text='Boko Fiddleworth almost had a job once.')
+>>> t18 = Tweet(id=18, text='I dont want to be moulded. Im not a jelly.')
+>>> t19 = Tweet(id=19, text='It is young men like you who make a person with the future at heart despair.')
+>>> t20 = Tweet(id=20, text='If I ever win the lottery, I want a Jeeves.')
+>>> 
+>>> u2.tweets.append(t2)
+>>> u3.tweets.append(t3)
+>>> u4.tweets.append(t4)
+>>> u5.tweets.append(t5)
+>>> u6.tweets.append(t6)
+>>> u2.tweets.append(t7)
+>>> u3.tweets.append(t8)
+>>> u4.tweets.append(t9)
+>>> u5.tweets.append(t10)
+>>> u6.tweets.append(t11)
+>>> u2.tweets.append(t12)
+>>> u3.tweets.append(t13)
+>>> u4.tweets.append(t14)
+>>> u5.tweets.append(t15)
+>>> u6.tweets.append(t16)
+>>> u2.tweets.append(t17)
+>>> u3.tweets.append(t18)
+>>> u4.tweets.append(t19)
+>>> u5.tweets.append(t20)
+>>> 
+>>> DB.session.add(u2)
+>>> DB.session.add(u3)
+>>> DB.session.add(u4)
+>>> DB.session.add(u5)
+>>> DB.session.add(u6)
+>>> 
+>>> DB.session.add(t2)
+>>> DB.session.add(t3)
+>>> DB.session.add(t4)
+>>> DB.session.add(t5)
+>>> DB.session.add(t6)
+>>> DB.session.add(t7)
+>>> DB.session.add(t8)
+>>> DB.session.add(t9)
+>>> DB.session.add(t10)
+>>> DB.session.add(t11)
+>>> DB.session.add(t12)
+>>> DB.session.add(t13)
+>>> DB.session.add(t14)
+>>> DB.session.add(t15)
+>>> DB.session.add(t16)
+>>> DB.session.add(t17)
+>>> DB.session.add(t18)
+>>> DB.session.add(t19)
+>>> DB.session.add(t20)
+>>> 
+>>> DB.session.commit()
+>>> ^D
+now exiting InteractiveConsole...
+(MyTwit) bash-3.2$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   mytwit/db.sqlite3
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	mytwit/toy_data.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(MyTwit) bash-3.2$ git add .
+(MyTwit) bash-3.2$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   mytwit/db.sqlite3
+	new file:   mytwit/toy_data.py
+
+(MyTwit) bash-3.2$ git commit -am "added users and tweets to DB model"
+[master 5a6cd1f] added users and tweets to DB model
+ 2 files changed, 76 insertions(+)
+ create mode 100644 mytwit/toy_data.py
+(MyTwit) bash-3.2$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+(MyTwit) bash-3.2$ git push
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 2.50 KiB | 1.25 MiB/s, done.
+Total 5 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/wel51x/MyTwit
+   b9c79de..5a6cd1f  master -> master
+(MyTwit) bash-3.2$ ls -alh
+total 48
+drwxr-xr-x   9 wel51x  staff   288B Apr  8 13:44 .
+drwxr-xr-x   3 wel51x  staff    96B Apr  8 10:31 ..
+drwxr-xr-x  14 wel51x  staff   448B Apr  8 17:43 .git
+-rw-r--r--   1 wel51x  staff   1.2K Apr  8 13:44 .gitignore
+-rw-r--r--   1 wel51x  staff   1.0K Apr  8 10:31 LICENSE
+-rw-r--r--   1 wel51x  staff   173B Apr  8 12:15 Pipfile
+-rw-r--r--   1 wel51x  staff   5.0K Apr  8 12:15 Pipfile.lock
+-rw-r--r--   1 wel51x  staff    55B Apr  8 10:31 README.md
+drwxr-xr-x   7 wel51x  staff   224B Apr  8 17:40 mytwit
+(MyTwit) bash-3.2$ ls -alh m*
+total 80
+drwxr-xr-x  7 wel51x  staff   224B Apr  8 17:40 .
+drwxr-xr-x  9 wel51x  staff   288B Apr  8 13:44 ..
+-rw-r--r--  1 wel51x  staff    75B Apr  8 10:49 __init__.py
+-rw-r--r--@ 1 wel51x  staff   489B Apr  8 12:36 app.py
+-rw-r--r--@ 1 wel51x  staff    24K Apr  8 17:40 db.sqlite3
+-rw-r--r--@ 1 wel51x  staff   713B Apr  8 12:56 models.py
+-rw-r--r--  1 wel51x  staff   2.5K Apr  8 17:39 toy_data.py
