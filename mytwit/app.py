@@ -8,4 +8,8 @@ def create_app():
     def root():
         return "Hello, MyTwit!"
 
+    @app.route('/banjo')
+    def banjo():
+        return 'I like <a href="https://banjohangout.org">banjos!'
+
     return app
