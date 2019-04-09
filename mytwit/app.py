@@ -18,6 +18,11 @@ def create_app():
     def root():
         return render_template('base.html', title='Home', users=User.query.all())
 
+    @app.route('/user/<name>')
+    def user(name):
+        tweets = User.query.filter(User.name == name).first().tweets
+        return render_template('user.html', title=name, tweets=tweets)
+
     @app.route('/reset')
     def reset():
         DB.drop_all()
@@ -27,5 +32,18 @@ def create_app():
     @app.route('/banjo')
     def banjo():
         return 'I like <a href="https://banjohangout.org">banjos!'
+
+    @app.route('/debug')
+    def debug():
+        users=User.query.all()
+        uzerz =[]
+        tweetz = []
+        for user in users:
+        	uzerz.append(user.name)
+        	tweets = User.query.filter(User.name==user.name).first().tweets
+        	for tweet in tweets:
+	        	tweetz.append(tweet.text)
+        
+        return str(uzerz) + str(tweetz)
 
     return app

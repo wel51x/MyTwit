@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>User:  {{ title }}</title>
+<!--
+    <link rel="stylesheet" href="https://unpkg.com/picnic"/>
+-->
+  </head>
+  <body>
+    <nav>
+      <a href="/" style="font-size: 36px; class="brand"><span>MyTwit!</span></a>
+
+    </nav>
+    <article class="flex two" style="padding: 3em 1em;">
+      <div>
+        <h1>{{ title }}</h1>
+      </div>
+      <div>
+        <h2>Tweets</h2>
+          {% for tweet in tweets %}
+            <li>{{ tweet.id  }} - {{ tweet.text }}</li>
+            {% endfor %}
+      </div>
+    </article>
+  </body>
+</html>
