@@ -1,0 +1,167 @@
+(MyTwit) bash-3.2$ ls -lsa
+total 1184
+  0 drwxr-xr-x  15 wel51x  staff     480 Apr 11 11:27 .
+  0 drwxr-xr-x   3 wel51x  staff      96 Apr  8 10:31 ..
+  8 -rw-r--r--   1 wel51x  staff     433 Apr  9 12:09 .env
+  0 drwxr-xr-x  14 wel51x  staff     448 Apr 11 11:26 .git
+  8 -rw-r--r--   1 wel51x  staff    1267 Apr  8 13:44 .gitignore
+  0 drwxr-xr-x   4 wel51x  staff     128 Apr 10 11:16 .ipynb_checkpoints
+  8 -rw-r--r--   1 wel51x  staff    1064 Apr  8 10:31 LICENSE
+104 -rw-r--r--   1 wel51x  staff   49936 Apr 11 09:55 LS_DS_343_Adding_Data_Science_to_a_Web_Application-Winston.ipynb
+ 48 -rw-r--r--@  1 wel51x  staff   23681 Apr 10 12:09 LS_DS_343_Adding_Data_Science_to_a_Web_Application.ipynb
+  8 -rw-r--r--   1 wel51x  staff     270 Apr 11 11:21 Pipfile
+ 40 -rw-r--r--   1 wel51x  staff   19875 Apr 11 11:22 Pipfile.lock
+  8 -rw-r--r--   1 wel51x  staff      55 Apr  8 10:31 README.md
+  0 drwxr-xr-x  13 wel51x  staff     416 Apr 11 11:16 mytwit
+112 -rw-r--r--   1 wel51x  staff   57231 Apr  8 17:56 screen_log1
+840 -rw-r--r--   1 wel51x  staff  429721 Apr  9 17:27 screen_log2
+(MyTwit) bash-3.2$ vi Procfile
+(MyTwit) bash-3.2$ heroku login
+heroku: Press any key to open up the browser to login or q to exit: 
+Opening browser to https://cli-auth.heroku.com/auth/browser/817b20d2-08eb-4f5f-a93e-3710d4929887
+Logging in... done
+Logged in as faluovo@gmail.com
+(MyTwit) bash-3.2$ heroku git:remote -a wel51x-mytwit
+set git remote heroku to https://git.heroku.com/wel51x-mytwit.git
+(MyTwit) bash-3.2$ git remote --verbose
+heroku	https://git.heroku.com/wel51x-mytwit.git (fetch)
+heroku	https://git.heroku.com/wel51x-mytwit.git (push)
+origin	https://github.com/wel51x/MyTwit (fetch)
+origin	https://github.com/wel51x/MyTwit (push)
+(MyTwit) bash-3.2$ git add Procfile
+(MyTwit) bash-3.2$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   Procfile
+
+(MyTwit) bash-3.2$ git commit -am "Add Procfile"
+[master 6b1e887] Add Procfile
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Procfile
+(MyTwit) bash-3.2$ git push heroku master
+Enumerating objects: 111, done.
+Counting objects: 100% (111/111), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (109/109), done.
+Writing objects: 100% (111/111), 12.31 MiB | 1.88 MiB/s, done.
+Total 111 (delta 57), reused 0 (delta 0)
+remote: Compressing source files... done.
+remote: Building source:
+remote: 
+remote: -----> Python app detected
+remote: -----> Installing python-3.7.3
+remote: -----> Installing pip
+remote: -----> Installing dependencies with Pipenv 2018.5.18…
+remote:        Installing dependencies from Pipfile.lock (3d49b2)…
+remote: -----> Installing SQLite3
+remote: -----> Discovering process types
+remote:        Procfile declares types -> web
+remote: 
+remote: -----> Compressing...
+remote:        Done: 128M
+remote: -----> Launching...
+remote:        Released v3
+remote:        https://wel51x-mytwit.herokuapp.com/ deployed to Heroku
+remote: 
+remote: Verifying deploy... done.
+To https://git.heroku.com/wel51x-mytwit.git
+ * [new branch]      master -> master
+(MyTwit) bash-3.2$ cat .env
+# Environment variables
+FLASK_APP=mytwit:APP
+FLASK_ENV="development"
+DATABASE_URL="sqlite:///db.sqlite3"
+TWITTER_CONSUMER_KEY="NObI9W2ibMeSAxejLTRyR2Ei8"
+TWITTER_CONSUMER_SECRET="gXTATtzgagnwtv72gACznPSTjtQvbHTTP8dnIK7CBGe2lVu9dm"
+TWITTER_ACCESS_TOKEN="1115059961216798725-zpuvmAeLDJmF7I9SVlDH5paC3bIbb2"
+TWITTER_ACCESS_TOKEN_SECRET="avt5EI9gqFmZcgvzdlssD92ZX8apSKSe9S172nzl58Zdl"
+BASILICA_KEY="b949588d-7c93-1031-30c4-562fcd66dea2"
+(MyTwit) bash-3.2$ heroku addons:create heroku-postgresql:hobby-dev
+Creating heroku-postgresql:hobby-dev on ⬢ wel51x-mytwit... free
+Database has been created and is available
+ ! This database is empty. If upgrading, you can transfer
+ ! data from another database with pg:copy
+Created postgresql-concentric-64107 as DATABASE_URL
+Use heroku addons:docs heroku-postgresql to view documentation
+(MyTwit) bash-3.2$ heroku config
+=== wel51x-mytwit Config Vars
+BASILICA_KEY:                b949588d-7c93-1031-30c4-562fcd66dea2
+DATABASE_URL:                postgres://ygesvltaknbbzu:efe4cef554907aba21df190d96b651b00801a5e6f61c97d2716868f4e8f1ba95@ec2-50-17-227-28.compute-1.amazonaws.com:5432/db3pndos58lkr7
+FLASK_ENV:                   production
+TWITTER_ACCESS_TOKEN:        1115059961216798725-zpuvmAeLDJmF7I9SVlDH5paC3bIbb2
+TWITTER_ACCESS_TOKEN_SECRET: avt5EI9gqFmZcgvzdlssD92ZX8apSKSe9S172nzl58Zdl
+TWITTER_CONSUMER_KEY:        NObI9W2ibMeSAxejLTRyR2Ei8
+TWITTER_CONSUMER_SECRET:     gXTATtzgagnwtv72gACznPSTjtQvbHTTP8dnIK7CBGe2lVu9dm
+(MyTwit) bash-3.2$ hreroku run bash
+bash: hreroku: command not found
+(MyTwit) bash-3.2$ heroku run bash
+Running bash on ⬢ wel51x-mytwit... up, run.6057 (Free)
+~ $ ls -alhs
+total 620K
+4.0K drwx------  5 u8662 dyno 4.0K Apr 11 17:21 .
+4.0K drwxr-xr-x 15 root  root 4.0K Apr  3 18:14 ..
+4.0K -rw-------  1 u8662 dyno 1.3K Apr 11 16:39 .gitignore
+4.0K drwx------  4 u8662 dyno 4.0K Apr 11 16:40 .heroku
+4.0K -rw-------  1 u8662 dyno 1.1K Apr 11 16:39 LICENSE
+ 24K -rw-------  1 u8662 dyno  24K Apr 11 16:39 LS_DS_343_Adding_Data_Science_to_a_Web_Application.ipynb
+ 52K -rw-------  1 u8662 dyno  49K Apr 11 16:39 LS_DS_343_Adding_Data_Science_to_a_Web_Application-Winston.ipynb
+4.0K drwx------  3 u8662 dyno 4.0K Apr 11 16:39 mytwit
+4.0K -rw-------  1 u8662 dyno  270 Apr 11 16:39 Pipfile
+ 20K -rw-------  1 u8662 dyno  20K Apr 11 16:39 Pipfile.lock
+4.0K -rw-------  1 u8662 dyno   32 Apr 11 16:39 Procfile
+4.0K drwx------  2 u8662 dyno 4.0K Apr 11 16:40 .profile.d
+4.0K -rw-------  1 u8662 dyno   55 Apr 11 16:39 README.md
+4.0K -rw-------  1 u8662 dyno  427 Apr 11 16:39 requirements.txt
+4.0K -rw-------  1 u8662 dyno   12 Apr 11 16:39 runtime.txt
+ 56K -rw-------  1 u8662 dyno  56K Apr 11 16:39 screen_log1
+420K -rw-------  1 u8662 dyno 420K Apr 11 16:39 screen_log2
+~ $ cat requirements.txt
+basilica==0.2.6
+certifi==2019.3.9
+chardet==3.0.4
+click==7.0
+flask==1.0.2
+flask-sqlalchemy==2.3.2
+gunicorn==19.9.0
+idna==2.8
+itsdangerous==1.1.0
+jinja2==2.10.1
+markupsafe==1.1.1
+numpy==1.16.2
+oauthlib==3.0.1
+pillow==6.0.0
+psycopg2==2.8.1
+pysocks==1.6.8
+python-dotenv==0.10.1
+requests==2.21.0
+requests-oauthlib==1.2.0
+scikit-learn==0.20.3
+scipy==1.2.1
+six==1.12.0
+sqlalchemy==1.3.2
+tweepy==3.7.0
+urllib3==1.24.1
+werkzeug==0.15.2
+~ $ ls -alhs mytwit
+total 18M
+4.0K drwx------ 3 u8662 dyno 4.0K Apr 11 16:39 .
+4.0K drwx------ 5 u8662 dyno 4.0K Apr 11 17:21 ..
+4.0K -rw------- 1 u8662 dyno 2.5K Apr 11 16:39 app_cl.py
+4.0K -rw------- 1 u8662 dyno 3.2K Apr 11 16:39 app.py
+ 18M -rw------- 1 u8662 dyno  18M Apr 11 16:39 db.sqlite3
+4.0K -rw------- 1 u8662 dyno   77 Apr 11 16:39 __init__.py
+4.0K -rw------- 1 u8662 dyno  985 Apr 11 16:39 models.py
+4.0K -rw------- 1 u8662 dyno 1.3K Apr 11 16:39 predict_cl.py
+4.0K -rw------- 1 u8662 dyno 1.2K Apr 11 16:39 predict.py
+4.0K drwx------ 2 u8662 dyno 4.0K Apr 11 16:39 templates
+4.0K -rw------- 1 u8662 dyno 2.6K Apr 11 16:39 toy_data.py
+4.0K -rw------- 1 u8662 dyno 2.1K Apr 11 16:39 twitter.py
+~ $ exit
+exit
+(MyTwit) bash-3.2$ cat Procfile
+web: gunicorn mytwit:APP -t 150
+(MyTwit) bash-3.2$ 
