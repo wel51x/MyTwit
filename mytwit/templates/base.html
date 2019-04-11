@@ -20,7 +20,7 @@
 
     <article class="flex two" style="padding: 3em 1em;">
       {% block content %}
-      <div>
+      <div class="two-fifth">
         <h1>{{ title }}</h1>
         <h2>{{ message }}</h2>
         <form action="/compare" method="post">
@@ -38,8 +38,8 @@
           <input type="submit" value="Compare Users">
         </form>
       </div>
-      <div>
-        <h2>Users</h2>
+      <div class="three-fifth">
+        <h2>Users - click for available tweets, or enter user at bottom to add</h2>
         {% for user in users %}
         <a href="/user/{{ user.name }}"><span class="stack">{{ user.name }}</span></a>
         {% endfor %}
