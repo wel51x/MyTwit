@@ -45,8 +45,9 @@ def create_app():
         else:
             prediction = predict_user(user1, user2, request.values['tweet_text'])
             message = '"{}" is more likely to be said by {} than {}'.format(
-                request.values['tweet_text'], user1 if prediction else user2,
-                user2 if prediction else user1)
+                request.values['tweet_text'], user1 if prediction[0] else user2,
+                user2 if prediction[0] else user1)
+            message += ', with ' + str(prediction[1]) + ' percent confidence'
         return render_template('prediction.html', title='Prediction', message=message)
 
     @app.route('/update')
