@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>TwitOff - {{ title }}</title>
+    <title>MyTwit - {{ title }}</title>
     <link rel="stylesheet" href="https://unpkg.com/picnic"/>
   </head>
   <body>
     <nav>
-      <a href="/" class="brand"><span>TwitOff!</span></a>
+      <a href="/" class="brand"><span>MyTwit!</span></a>
 
       <!-- responsive-->
       <input id="bmenub" type="checkbox" class="show">
@@ -22,6 +22,7 @@
       {% block content %}
       <div>
         <h1>{{ title }}</h1>
+        <h2>{{ message }}</h2>
         <form action="/compare" method="post">
           <select name="user1">
             {% for user in users %}
